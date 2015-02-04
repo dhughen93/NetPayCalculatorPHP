@@ -1,0 +1,67 @@
+#hours_form
+{
+	text-align: center;
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    background-color: #d6e5f4;
+    padding: 10px;
+}
+
+h1, h2
+{
+	text-align: center;
+    font-family: Arial, Sans-Serif;
+    padding: 10px;
+}
+
+.hour_form
+{
+ margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+
+#php_body
+{
+	text-align: center;
+}
+
+#pay_rate input[type="text"], #inputArea textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+thead {
+  background: #395870;
+  color: #fff;
+}
+th {
+  font-weight: bold;
+}
+
+tbody td:nth-child(odd){
+	background: #d6e5f4;
+	font-weight:bold;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
